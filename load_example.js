@@ -16,7 +16,11 @@ function load_next() {
     my_desc.innerHTML = ex.my_desc;
     chat_history.innerHTML = "";
     ex.chat_history.forEach(mess=>{
-        chat_history.innerHTML += chat_list_item.replace(/TEXT/g, mess)
+        var chat_mess = document.createElement("li")
+        chat_mess.classList.add("Message");
+        chat_mess.classList.add(mess.sender);
+        chat_mess.innerHTML = mess.text;
+        chat_history.appendChild(chat_mess);
     })
 }
 

@@ -27,6 +27,24 @@
             height: 250px;
             resize: vertical;
         }
+
+        .Message {
+            width: 50%;
+            border: 2px solid black ;
+            padding: 1%;
+            margin: 2%;
+        }
+
+        .me {
+            float: right;
+            text-align: right;
+        }
+
+        .other {
+            float: left;
+            text-align: left;
+        }
+
     </style>
 </head>
 <body>
@@ -39,14 +57,17 @@
     </div>
     
     <div class="ChatDiv">
-        <h1> Chat History</h1> 
-        <ul id="Chat">
-          
-        </ul>
-        <br><br><br>
+        <h1> Chat Answer</h1> 
+        <br>
         <textarea id="reply-text"></textarea> 
         <br><br>
         <button onclick="load_next()"> Send Message </button>
+        <br><br> 
+        <h1> Chat History</h1> 
+        <br><br>
+        <ul id="Chat">
+          
+        </ul>
     </div>
 
     <div class="MyDiv"> 
