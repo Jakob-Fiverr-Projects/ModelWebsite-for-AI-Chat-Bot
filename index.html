@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mocking Website for the Chat Bot </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            gap: 2vw;
+            text-align: center;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        textarea {
+            width: 80%;
+            height: 250px;
+            resize: vertical;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="OtherDiv">
+        <h1> Information of Chatpartner </h1> 
+        <div id="Other_Informations">
+
+        </div>
+    </div>
+    
+    <div class="ChatDiv">
+        <h1> Chat History</h1> 
+        <ul id="Chat">
+          
+        </ul>
+        <br><br><br>
+        <textarea id="reply-text"></textarea> 
+        <br><br>
+        <button onclick="load_next()"> Send Message </button>
+    </div>
+
+    <div class="MyDiv"> 
+        <h1> My Information </h1> 
+        <div id="My_Information">
+
+        </div>
+        <br><br>
+        <div id="My_Description">
+
+        </div>
+
+    </div>
+    <script src="examples.js"></script>
+    <script src="load_example.js"></script>
+</body>
+</html>
