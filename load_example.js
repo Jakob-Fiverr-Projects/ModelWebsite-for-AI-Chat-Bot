@@ -2,6 +2,8 @@ const other_info = document.getElementById("Other_Information");
 const chat_history = document.getElementById("Chat");
 const my_info = document.getElementById("My_Information");
 const my_desc = document.getElementById("My_Description");
+const my_name = document.getElementById("My_Name");
+const other_name = document.getElementById("Other_Name");
 const reply = document.getElementById("reply-text");
 
 const chat_list_item = "<p> TIME </p> <div> TEXT </div>"
@@ -14,6 +16,8 @@ function load_next() {
     other_info.innerHTML = ex.other_info;
     my_info.innerHTML = ex.my_info;
     my_desc.innerHTML = ex.my_desc;
+    my_name.innerHTML = ex.my_name;
+    other_name.innerHTML = ex.my_name;
     chat_history.innerHTML = "";
     ex.chat_history.forEach(mess=>{
         var chat_mess = document.createElement("li")

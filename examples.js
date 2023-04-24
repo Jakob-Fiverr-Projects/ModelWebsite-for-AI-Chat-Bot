@@ -8,6 +8,8 @@ const examples = [
         ],
         my_info: "Info of the My Person",
         my_desc: "Description of the My Person",
+        my_name: "Sandra",
+        other_name: "Max"
     },
     {
         other_info: "Some Other Info",
@@ -18,6 +20,8 @@ const examples = [
         ],
         my_info: "Info of the Some Person",
         my_desc: "Description of the Another Person",
+        my_name: "Laura",
+        other_name: "Max"
     }, 
     {
         other_info: "Just another Info",
@@ -28,6 +32,8 @@ const examples = [
         ],
         my_info: "Info of the that Person",
         my_desc: "Description of the a Person",
+        my_name: "Andrea",
+        other_name: "Kevin"
     }, 
     {
         other_info: "Next Persons Info",
@@ -38,5 +44,7 @@ const examples = [
         ],
         my_info: "Info the chatting Person Person",
         my_desc: "Description basics",
+        my_name: "Laura",
+        other_name: "Martin"
     }, 
 ]
