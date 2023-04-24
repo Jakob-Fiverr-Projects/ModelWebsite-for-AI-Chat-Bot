@@ -4,7 +4,7 @@ const my_info = document.getElementById("My_Information");
 const my_desc = document.getElementById("My_Description");
 const reply = document.getElementById("reply-text");
 
-const chat_list_item = "<li class='Message'> TEXT </li>"
+const chat_list_item = "<p> TIME </p> <div> TEXT </div>"
 
 
 function load_next() {
@@ -19,7 +19,7 @@ function load_next() {
         var chat_mess = document.createElement("li")
         chat_mess.classList.add("Message");
         chat_mess.classList.add(mess.sender);
-        chat_mess.innerHTML = mess.text;
+        chat_mess.innerHTML = chat_list_item.replace(/TEXT/, mess.text).replace(/TIME/, mess.time);
         chat_history.appendChild(chat_mess);
     })
 }
