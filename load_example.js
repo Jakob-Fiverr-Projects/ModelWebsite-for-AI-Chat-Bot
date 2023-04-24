@@ -1,4 +1,4 @@
-const other_info = document.getElementById("Other_Informations");
+const other_info = document.getElementById("Other_Information");
 const chat_history = document.getElementById("Chat");
 const my_info = document.getElementById("My_Information");
 const my_desc = document.getElementById("My_Description");
