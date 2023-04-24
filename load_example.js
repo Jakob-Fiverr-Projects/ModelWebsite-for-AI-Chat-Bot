@@ -17,7 +17,7 @@ function load_next() {
     my_info.innerHTML = ex.my_info;
     my_desc.innerHTML = ex.my_desc;
     my_name.innerHTML = ex.my_name;
-    other_name.innerHTML = ex.my_name;
+    other_name.innerHTML = ex.other_name;
     chat_history.innerHTML = "";
     ex.chat_history.forEach(mess=>{
         var chat_mess = document.createElement("li")
