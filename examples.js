@@ -38,9 +38,9 @@ const examples = [
     {
         other_info: "Next Persons Info",
         chat_history: [
-            {sender: "other", time:"1.4.2023, 17:22:33"}, 
-            {sender: "other", time:"1.4.2023, 16:30:30"}, 
-            {sender: "me", time:"1.4.2023, 10:20:30"}
+            {sender: "other", text: "Chat Message 1C", time:"1.4.2023, 17:22:33"}, 
+            {sender: "other", text: "Chat Message 2C", time:"1.4.2023, 16:30:30"}, 
+            {sender: "me", text: "Chat Message 3C", time:"1.4.2023, 10:20:30"}
         ],
         my_info: "Info the chatting Person Person",
         my_desc: "Description basics",
